@@ -232,8 +232,109 @@
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .page-title {
+                padding: 12px 20px;
+                flex-direction: column;
+                gap: 12px;
+                align-items: flex-start;
+            }
+
+            .page-title h1 {
+                font-size: 1.1rem;
+            }
+
+            .filter-btn {
+                padding: 8px 20px;
+                font-size: 0.85rem;
+                align-self: flex-end;
+            }
+
             .stats-row {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+                margin-bottom: 20px;
+            }
+
+            .stat-card {
+                padding: 15px;
+                border-radius: 12px;
+            }
+
+            .stat-icon {
+                width: 45px;
+                height: 45px;
+                font-size: 1.5rem;
+                margin-bottom: 8px;
+            }
+
+            .stat-value {
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+            }
+
+            .stat-label {
+                font-size: 0.7rem;
+            }
+
+            .charts-grid {
+                gap: 15px;
+                margin-bottom: 20px;
+            }
+
+            .chart-card {
+                padding: 18px;
+            }
+
+            .chart-title {
+                font-size: 0.7rem;
+                margin-bottom: 15px;
+            }
+
+            .chart-container {
+                height: 250px;
+            }
+
+            .treemap-container {
+                height: 250px;
+            }
+
+            .treemap-number {
+                font-size: 1.2rem;
+            }
+
+            .treemap-label {
+                font-size: 0.75rem;
+            }
+
+            .campaign-header {
+                padding: 15px 20px;
+                margin-bottom: 15px;
+            }
+
+            .campaign-header h2 {
+                font-size: 1rem;
+            }
+
+            .campaign-header p {
+                font-size: 0.75rem;
+            }
+
+            .bottom-section {
+                gap: 15px;
+            }
+
+            .legend-inline {
+                gap: 12px;
+                font-size: 0.7rem;
+            }
+
+            .legend-dot {
+                width: 10px;
+                height: 10px;
             }
         }
     </style>
